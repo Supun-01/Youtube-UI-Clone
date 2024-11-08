@@ -2,6 +2,10 @@
 
 This is a responsive clone of the YouTube interface, built to mimic the look and feel of YouTube's main layout. The project uses React with Vite for fast builds and Tailwind CSS for styling, ensuring a responsive and modern design across various screen sizes.
 
+**<a href="https://youtube-ui-clone-beiq.vercel.app/">Click To Visit</a>**
+
+## Screenshots
+
 ## Features
 
 **1. Responsive Layout**
@@ -16,9 +20,9 @@ This is a responsive clone of the YouTube interface, built to mimic the look and
 
 ## Technologies Used
 
-- React: JavaScript library for building user interfaces.
-- Vite: Fast, modern frontend tool for development and build.
-- Tailwind CSS: Utility-first CSS framework for responsive design.
+- **React:** JavaScript library for building user interfaces.
+- **Vite:** Fast, modern frontend tool for development and build.
+- **Tailwind CSS:** Utility-first CSS framework for responsive design.
 
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -34,6 +38,7 @@ cd Youtube-UI-Clone
 npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+npm install react-icons --save
 ```
 
 **2. Start the Development Server:**
