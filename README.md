@@ -30,7 +30,7 @@ This is a responsive clone of the YouTube interface, built to mimic the look and
 
 ```bash
 git clone https://github.com/Supun-01/Youtube-UI-Clone.git
-cd portfolio
+cd Youtube-UI-Clone
 npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p

@@ -1,6 +1,12 @@
+import Test from "./test/test.jsx"
+import Card from "./subComponents/Card.jsx"
+
 function App() {
   return (
-    0
+    <div>
+      <Card />
+      <Test />
+    </div>
   )
 }
 
