@@ -18,7 +18,7 @@ export const ytChannle = [
         thumbnailLink: "https://static-cse.canva.com/blob/1760641/1600w-wK95f3XNRaM.jpg"
     },
     {
-        cardTitle: "My Video 2",
+        cardTitle: "My Video 3",
         channleName: "Tharaka",
         videoViews: "6.5k",
         videoWatchTime: "37",
@@ -26,7 +26,7 @@ export const ytChannle = [
         thumbnailLink: "https://static-cse.canva.com/blob/1760641/1600w-wK95f3XNRaM.jpg"
     },
     {
-        cardTitle: "My Video 2",
+        cardTitle: "My Video 4",
         channleName: "Tharaka",
         videoViews: "6.5k",
         videoWatchTime: "37",
@@ -34,7 +34,7 @@ export const ytChannle = [
         thumbnailLink: "https://static-cse.canva.com/blob/1760641/1600w-wK95f3XNRaM.jpg"
     },
     {
-        cardTitle: "My Video 2",
+        cardTitle: "My Video 5",
         channleName: "Tharaka",
         videoViews: "6.5k",
         videoWatchTime: "37",
@@ -42,7 +42,7 @@ export const ytChannle = [
         thumbnailLink: "https://static-cse.canva.com/blob/1760641/1600w-wK95f3XNRaM.jpg"
     },
     {
-        cardTitle: "My Video 2",
+        cardTitle: "My Video 6",
         channleName: "Tharaka",
         videoViews: "6.5k",
         videoWatchTime: "37",
