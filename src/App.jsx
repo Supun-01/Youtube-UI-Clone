@@ -1,11 +1,9 @@
-import Test from "./test/test.jsx"
-import Card from "./subComponents/Card.jsx"
+import Card from "./Card"
 
 function App() {
   return (
     <div>
       <Card />
-      <Test />
     </div>
   )
 }

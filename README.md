@@ -23,10 +23,12 @@ This is a responsive clone of the YouTube interface, built to mimic the look and
 - **React:** JavaScript library for building user interfaces.
 - **Vite:** Fast, modern frontend tool for development and build.
 - **Tailwind CSS:** Utility-first CSS framework for responsive design.
+- **Framer Motion:** Makes it easy to create smooth transitions and interactive effects.
 
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Framer Motion](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
 
 ## Installation
 
@@ -39,6 +41,7 @@ npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm install react-icons --save
+npm install framer-motion
 ```
 
 **2. Start the Development Server:**
