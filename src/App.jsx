@@ -8,7 +8,7 @@ function App() {
     <div className="mx-4">
       <NavBar />
       <div className="flex">
-        <div className="w-[350px]  h-screen overflow-y-scroll">
+        <div className="w-[400px] h-screen overflow-y-scroll">
           <SideMenu />
         </div>
         <div className="w-full">
