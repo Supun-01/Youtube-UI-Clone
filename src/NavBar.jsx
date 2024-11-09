@@ -14,7 +14,7 @@ function NavBar() {
     const [showVoiceSearch, setShowVoiceSearch] = useState(false);
 
     return (
-        <div className="flex flex-wrap justify-between my-2 px-2">
+        <div className="flex flex-wrap justify-between my-2 px-2 py-2">
             {/* yt logo */}
             <div className="flex items-center gap-6">
                 <CiMenuBurger className="text-2xl" />
@@ -69,7 +69,7 @@ function NavBar() {
                         className={`flex justify-center transition-opacity duration-200 ${showVoiceSearch ? 'opacity-100' : 'opacity-0'
                             }`}
                     >
-                        <h1 className="bg-gray-600 bg-opacity-90 absolute text-sm rounded-lg text-white px-2 py-1 mt-3">
+                        <h1 className=" bg-gray-600 bg-opacity-90 absolute text-sm rounded-lg text-white px-2 py-1 mt-3">
                             Search with voice
                         </h1>
                     </div>
