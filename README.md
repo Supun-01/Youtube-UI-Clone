@@ -8,7 +8,11 @@ This is a responsive clone of the YouTube interface, built to mimic the look and
 
 ## Screenshots
 
-![ytClone ](https://raw.githubusercontent.com/Supun-01/Youtube-UI-Clone/master/src/Screenshots/01.png)
+<div align="center">
+
+![ytClone ](https://raw.githubusercontent.com/Supun-01/Youtube-UI-Clone/master/Screenshots/01.png)
+
+</div>
 
 ## Features
 
