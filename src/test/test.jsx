@@ -1,9 +1,10 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 function Test() {
+    const [hoverTracker, setHoverTracker] = useState(false)
     const scrollConainterRef = useRef(null)
 
     const keyWord = [
@@ -13,6 +14,10 @@ function Test() {
         "All", "Engine", "Sport Bikes", "React routers",
         "All", "Engine", "Sport Bikes", "React routers"
     ];
+
+    const hoverTrackerHoverTracker = () => {
+        setHoverTracker(!hoverTracker)
+    }
 
     const scrollButton = (count) => {
         if (scrollConainterRef.current) {
@@ -33,12 +38,18 @@ function Test() {
 
             <div className="flex overflow-hidden gap-1 rounded-lg" ref={scrollConainterRef}>
                 {keyWord.map((word, index) => (
-                    <button
-                        key={index}
-                        className="bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded-lg text-black font-semibold whitespace-nowrap"
-                    >
-                        {word}
-                    </button>
+                    <div className="flex flex-wrap justify-center" key={index}>
+                        <button
+
+                            className="bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded-lg text-black font-semibold whitespace-nowrap"
+                        >
+                            {word}
+                        </button>
+                        <div className={`${(hoverTracker) ? "opacity-0" : "opacity-100"} text-white bg bg-black absolute mt-8`}>
+                            {word}
+                        </div>
+                    </div>
+
                 ))}
             </div>
 

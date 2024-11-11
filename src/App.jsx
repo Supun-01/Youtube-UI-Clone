@@ -10,17 +10,19 @@ function App() {
     <div className="mx-4">
       <NavBar />
       <div className="flex">
-        <div className="w-2/6 lg:w-2/12 h-screen overflow-y-scroll">
+        {/* Fixed SideMenu */}
+        <div className="w-2/6 lg:w-2/12 h-screen overflow-y-auto">
           <SideMenu />
         </div>
-        <div className="w-4/6 lg:w-10/12 ">
+
+        {/* Scrollable Content Area for TagSection and Card */}
+        <div className="w-4/6 lg:w-10/12 h-screen overflow-y-scroll">
           <TagSection />
-          {/* <Test /> */}
           <Card />
         </div>
       </div>
-
     </div>
+
   )
 }
 
