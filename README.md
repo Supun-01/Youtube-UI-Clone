@@ -2,7 +2,7 @@
 
 This is a responsive clone of the YouTube interface, built to mimic the look and feel of YouTube's main layout. The project uses React with Vite for fast builds and Tailwind CSS for styling, ensuring a responsive and modern design across various screen sizes.
 
-<font color="red"> <h3 color="red">Note: This UI is currently optimized for large screens only.</h3></font>
+<h3 color="red">Note: This UI is currently optimized for large screens only.</h3>
 
 **<a href="https://youtube-ui-clone-beiq.vercel.app/">Click To Visit</a>**
 

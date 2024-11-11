@@ -79,7 +79,7 @@ function NavBar() {
             </div>
 
             {/* Control Section */}
-            <div className="flex  items-center  gap-12 text-xl">
+            <div className="flex  items-center  gap-6 text-xl">
 
                 {/* create icon with transition */}
                 <div>
