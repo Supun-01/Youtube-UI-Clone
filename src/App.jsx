@@ -19,6 +19,7 @@ function App() {
         <div className="w-4/6 lg:w-10/12 h-screen overflow-y-scroll">
           <TagSection />
           <Card />
+          <Card />
         </div>
       </div>
     </div>
